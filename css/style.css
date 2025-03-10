@@ -1,0 +1,18 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%; 
+    height: 15cm;
+    margin: auto;
+    color: rgb(58, 226, 43);
+    background-image: linear-gradient(to bottom right, rgb(129, 119, 119), rgb(0, 0, 0));
+    box-shadow: 20px 20px 20px rgb(174, 0, 255);
+    margin-bottom: 100px;
+    }
+td,th {
+    border: 3px solid rgb(0, 255, 191);
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+    height: 60px;
+}
