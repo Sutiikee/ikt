@@ -16,3 +16,9 @@ td,th {
     font-weight: bold;
     height: 60px;
 }
+body {
+    background-color: #222;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
