@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    }
+    fieldset {
+        border: 1px solid #ad33ff;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    label, select, input, textarea {
+        display: block;
+        width: 95%;
+        margin: 0 auto 10px auto;
+        background: #444;
+        color: white;
+        border: 1px solid #555;
+        padding: 5px;
+        text-align: center;
+        resize: vertical;
+    }
+    button {
+        background-color: #ad33ff;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: 0.2s;
+    }
+    button:hover{
+        background-color: #5b3178;
+    }
+    
+    

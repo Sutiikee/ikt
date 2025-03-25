@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/pizza.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">FŐOLDAL</a> |
+        <a href="listak.html">LISTÁK</a> |
+        <a href="orarend.html">ORAREND</a> |
+        <a href="evszakok.html">EVSZAKOK</a> |
+        <a href="pizza.html">RENDELES</a> |   
+    </nav>
+
+    <form class="container">
+    <fieldset>
+        <legend>Személyes Adatok</legend>
+        <label for="tnev">Teljes Név</label><br>
+        <input type="text" name="tev" id="tnev"
+        placeholder="elek isti"><br>
+        <label for="tszam">Telefonszám</label><br>
+        <input type="tel" name="tszam" id="tszam" placeholder="0630/123-1234"><br>
+        <label for="email">Email cím</label><br>
+        <input type="email" name="email" id="email" placeholder="hazi@gmail.com">
+     </fieldset>
+     <fieldset>
+        <legend>
+            Rendelési Adatok
+        </legend>
+        <label for="ptipus">Pizzáink: </label>
+        <select>
+            <option value="Margherita">Margherita</option>
+            <option value="Hawaii">Hawaii</option>
+            <option value="Pepperoni">Pepperoni</option>
+            <option value="Vegán">Vegán</option>
+        </select><br>
+        <label for="size">Méret :</label>
+        <select id="size">
+            <option value="kicsi">Kicsi</option>
+            <option value="közepes">Közepes</option>
+            <option value="nagy">Nagy</option>
+        </select>
+     </fieldset>
+     <fieldset>
+        <legend>Extra feltétek</legend>
+            <label><input type="checkbox" value="Sajt"> Sajt</label>
+            <label><input type="checkbox" value="Sonka"> Sonka</label>
+            <label><input type="checkbox" value="Gomba"> Gomba</label>
+            <label><input type="checkbox" value="Pepperoni"> Pepperoni</label>
+    </fieldset>
+    
+    <label for="note">Megjegyzés:</label>
+    <textarea id="note"></textarea>
+    <button type="button">Rendelés leadása</button>
+    </form>
+</body>
+</html>
