@@ -22,3 +22,7 @@ body {
     text-align: center;
     color: white;
 }
+nav {
+    background-color: aqua;
+    text-decoration: none;
+}
