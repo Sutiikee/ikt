@@ -30,3 +30,6 @@ a {
     text-decoration: none;
     margin: 10px;    
 }
+a:active {
+    color: white;
+}
