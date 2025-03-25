@@ -1,5 +1,4 @@
 table {
-    font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 80%; 
     height: 15cm;
@@ -22,7 +21,15 @@ body {
     text-align: center;
     color: white;
 }
+.listak {
+    text-align: center; justify-content: center;
+    display: flex;
+}
 nav {
-    background-color: aqua;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+a {
     text-decoration: none;
+    margin: 10px;
 }

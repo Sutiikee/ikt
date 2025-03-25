@@ -11,7 +11,7 @@ h1 {
 img {
     width: 300px;
     margin: 30px;
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid rgb(174, 0, 255);
     border-radius: 15px;
     transition: 1s;
 }
@@ -21,4 +21,12 @@ img:hover {
 }
 div {
     text-align: center;
+}
+nav {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+a {
+    text-decoration: none;
+    margin: 10px;    
 }
