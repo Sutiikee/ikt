@@ -35,6 +35,7 @@
         </legend>
         <label for="ptipus">Pizzáink</label>
         <select>
+            <option value="Ures"></option>
             <option value="Margherita">Margherita</option>
             <option value="Hawaii">Hawaii</option>
             <option value="Pepperoni">Pepperoni</option>
@@ -42,6 +43,7 @@
         </select><br>
         <label for="size">Méret</label>
         <select id="size">
+            <option value="Ures"></option>
             <option value="kicsi">Kicsi</option>
             <option value="közepes">Közepes</option>
             <option value="nagy">Nagy</option>
@@ -57,7 +59,7 @@
     
     <label for="note">Megjegyzés:</label>
     <textarea id="note"></textarea>
-    <button type="button">Rendelés leadása</button>
+    <button type="button" oneclick="alert('Rendelését rögzítettük')">Rendelés leadása</button>
     </form>
 </body>
 </html>
